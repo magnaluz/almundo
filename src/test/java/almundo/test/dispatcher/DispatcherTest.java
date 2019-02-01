@@ -22,7 +22,7 @@ public class DispatcherTest {
     /**
      * 1 llamada 1 empleado (1 operador)
      */
-    //@Test
+    @Test
     public void testOne() {
 	LOGGER.info("+++++++++++++++++++++++++++++++++++++");
 	LOGGER.info("Inicio del Test - 1");
@@ -49,7 +49,7 @@ public class DispatcherTest {
     /**
      * 10 llamada 10 empleado (5 operadores, 3 supervisores, 2 directores)
      */
-    //@Test
+    @Test
     public void testTwo() {
 	LOGGER.info("+++++++++++++++++++++++++++++++++++++");
 	LOGGER.info("Inicio del Test - 2");
@@ -78,7 +78,7 @@ public class DispatcherTest {
     /**
      * 6 llamada 1 empleado (1 operadores, 0 supervisores, 0 directores)
      */
-    //@Test
+    @Test
     public void testThree() {
 	LOGGER.info("+++++++++++++++++++++++++++++++++++++");
 	LOGGER.info("Inicio del Test - 3");
@@ -108,7 +108,7 @@ public class DispatcherTest {
     /**
      * 5 llamada 0 empleado
      */
-    //@Test
+    @Test
     public void testFor() {
 	LOGGER.info("+++++++++++++++++++++++++++++++++++++");
 	LOGGER.info("Inicio del Test - 4");
@@ -134,7 +134,7 @@ public class DispatcherTest {
     /**
      *  10 llamada 15 empleado (10 operadores, 3 supervisores, 2 directores)
      */
-    //@Test
+    @Test
     public void testFive() {
 	LOGGER.info("+++++++++++++++++++++++++++++++++++++");
 	LOGGER.info("Inicio del Test - 5");
